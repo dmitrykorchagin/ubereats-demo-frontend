@@ -1,0 +1,280 @@
+/* restaurnat header */
+
+.restaurant-header {
+  background-image: url("../images/pushkin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 56px;
+  padding-top: 77px;
+}
+
+@media (min-width: 768px) {
+  .restaurant-header {
+    background-size: 100% auto;
+    background-position: 50% 74%;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .restaurant-header {
+    background-size: cover;
+    background-position: 50% 53%;
+  }
+}
+
+.restaurant-header__content {
+  position: relative;
+  height: 255px;
+}
+
+@media (min-width: 768px) {
+  .restaurant-header__content {
+    padding-top: 80px;
+    height: 364px;
+    position: static;
+  }
+}
+
+.restaurant-board {
+  width: 100%;
+  position: absolute;
+  bottom: -55px;
+  background-color: #fff;
+  z-index: 10px;
+  padding: 24px;
+  max-height: 180px;
+  box-shadow: 0 0 16px 0 rgba(117, 117, 117, 0.2);
+}
+
+@media (min-width: 768px) {
+  .restaurant-board {
+    position: static;
+    padding: 38px;
+    box-shadow: none;
+    max-width: 432px;
+    max-height: 204px;
+  }
+}
+
+@media (min-width: 992px) {
+  .restaurant-board {
+    max-width: 389px;
+    max-height: 204px;
+  }
+}
+
+.restaurant-title {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  padding-top: 8px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .restaurant-title {
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 62px;
+  }
+}
+
+.restaurant-board__offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .restaurant-board__offer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+.restaurant-board__offer-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.restaurant-board__offer-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .restaurant-board__offer-item {
+    margin-bottom: 0;
+  }
+}
+
+.restaurant-board__item--time {
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #fff;
+  background-color: #000;
+  margin-bottom: 24px;
+}
+
+/* menu navigation */
+
+.navigation {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    display: block;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+  }
+}
+
+.nav-dishes {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-dishes__item {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #626262;
+  margin-right: 40px;
+}
+
+.nav-dishes__item:last-child {
+  margin-right: 0;
+}
+
+.nav-dishes__item.active {
+  color: #327430;
+}
+
+/* restaurant menu */
+
+.menu {
+  padding-top: 56px;
+  padding-bottom: 40px;
+}
+
+.menu__title {
+  font-size: 22px;
+  line-height: 34px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-image: url("../images/poloska.png");
+  background-size: 50px 1px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .menu__title {
+    text-align: left;
+    background-image: none;
+  }
+}
+
+.dish-card {
+  display: flex;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+  color: #1d1d1d;
+}
+
+.dish-card:hover {
+  background-color: rgba(117, 117, 117, 0.04);
+}
+
+@media (min-width: 768px) {
+  .dish-card {
+    margin-bottom: 32px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+  }
+}
+
+@media (min-width: 992px) {
+  .dash-card {
+    margin-bottom: 49px;
+  }
+}
+
+.dish-card__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  padding-right: 18px;
+  padding-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .dish-card__content {
+    padding-top: 16px;
+    padding-left: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dish-card__content {
+    padding-left: 16px;
+  }
+}
+
+.dish-card__name {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dish-card__name--detail {
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 16px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #626262;
+}
+
+.dish-card__price {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.dish-card__photo {
+  display: block;
+  width: 102px;
+  height: 102px;
+}
+
+@media (min-width: 768px) {
+  .dish-card__photo {
+    width: 200px;
+    height: 160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dish-card__photo {
+    width: 170px;
+    height: 160px;
+  }
+}

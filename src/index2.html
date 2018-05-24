@@ -2,57 +2,52 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>UberEats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
-  <link rel="stylesheet" type="text/css" href="./styles/styles2.css" />
-  <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/styles2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic-ext" rel="stylesheet">
 </head>
 
 <body>
 
-  <header class="header" id="jump-top">
-    <div class="header-top">
-      <div class="container">
-        <div class="row">
+  <header class="header">
+    <div class="container">
+      <div class="header-navigation">
 
-          <div class="col-xs-5 col-sm-2 col-md-3">
-            <a href="#" class="header-top__item header-logo">
-              <img src="./images/logo.svg" alt="UberEats" class="header-logo__img">
-            </a>
-          </div>
-
-          <form class="header-top__item header-location header-location--desktop">
-            <div class="header-location__item header-location__item--time">
-              <label class="header-location__label header-location__label--when">When</label>
-              <button class="header-location__field header-location__field--time">ASAP</button>
-            </div>
-            <div class="header-location__item header-location__item--destination">
-              <label class="header-location__label header-location__label--to">To</label>
-              <input type="text" class="header-location__field header-location__field--destination" placeholder="ul. Bolshaya Dmitrovka, 22">
-            </div>
-          </form>
-
-          <div class="col-xs-7 col-sm-5 col-md-4">
-            <div class="header-button header-top__item">
-              <div class="header-button__acc">
-                <button class="header-button__link header-button__link--sign-up">Sign Up</button>
-                <button class="header-button__link header-button__link--register">Register</button>
-              </div>
-              <button class="header-button__basket"></button>
-            </div>
-          </div>
-
+        <div class="header-navigation__logo header-navigation__item">
+          <a class="header-navigation__logo--img" href="#"></a>
         </div>
+
+        <form class="header-navigation__item header-location--desktop">
+          <div class="header-location__item header-location__item--time">
+            <label class="header-location__label header-location__label--when">When</label>
+            <button class="header-location__field header-location__field--time">ASAP</button>
+          </div>
+          <div class="header-location__item header-location__item--destination">
+            <label class="header-location__label header-location__label--to">To</label>
+            <input class="header-location__field header-location__field--destination" type="text" placeholder="ul. Bolshaya Dmitrovka, 22"
+              value="">
+          </div>
+        </form>
+
+        <div class="header-navigation__button header-navigation__item">
+          <div class="header-button">
+            <button class="header-button__link header-button__link--sign-up">Sign Up</button>
+            <button class="header-button__link header-button__link--register">Register</button>
+          </div>
+          <button class="header-button__basket"></button>
+        </div>
+
       </div>
     </div>
   </header>
 
   <main class="main-content">
-    <section class="restaurant-header">
+    <section class="restaurant-header" id="jump-btn">
       <div class="container">
         <div class="row">
 
@@ -63,13 +58,11 @@
                   Трактир «Пушкин»
                 </h1>
                 <div class="restaurant-board__offer">
-                  <div class="restaurant-board__offer-item">
-                    <div class="restaurant-info">
-                      <span class="restaurant-info__price">&#8381;&#8381;&#8381;</span>
-                      <ul class="restaurant-info__kitchen-list">
-                        <li class="restaurant-info__kitchen-item">Европейская</li>
-                      </ul>
-                    </div>
+                  <div class="restaurant-info">
+                    <span class="restaurant-info__price">₽₽₽</span>
+                    <ul class="restaurant-info__kitchen-list">
+                      <li class="restaurant-info__kitchen-item">Европейская</li>
+                    </ul>
                   </div>
                   <div class="restaurant-board__item restaurant-board__item--time">
                     40 - 60 Мin
@@ -269,7 +262,7 @@
 
     </div>
 
-    <a class="totop__button" href="#jump-top"></a>
+    <a class="totop__button" href="#jump-btn"></a>
 
   </footer>
 
