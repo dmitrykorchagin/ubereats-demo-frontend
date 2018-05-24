@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UberEats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+
+<body>
+
+  <header class="header" id="hdr-top">
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-5 col-sm-2 col-md-2">
+            <a class="header-top__item header-logo" href="#">
+              <img class="header-logo__img" src="./images/logo.svg" alt="UberEats">
+            </a>
+          </div>
+
+          <form class="header-top__item header-location header-location--desktop">
+            <div class="header-location__item header-location__item--time">
+              <label class="header-location__label header-location__label--when">When</label>
+              <button class="header-location__field header-location__field--time">ASAP</button>
+            </div>
+            <div class="header-location__item header-location__item--destination">
+              <label class="header-location__label header-location__label--to">To</label>
+              <input class="header-location__field header-location__field--destination" type="text" placeholder="ul. Bolshaya Dmitrovka, 22"
+                value="">
+            </div>
+          </form>
+
+          <div class="col-xs-7 col-sm-5 col-md-4">
+            <div class="header-button header-top__item">
+              <div class="header-button__acc">
+                <button class="header-button__link header-button__link--sign-up">Sign Up</button>
+                <button class="header-button__link header-button__link--register">Register</button>
+              </div>
+              <button class="header-button__basket"></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12">
+            <div class="header-search">
+              <form action="#" class="search-restaurant">
+                <input type="text" class="search-restaurant__input" placeholder="Search for restaurant or cuisine">
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-xs-12">
+            <form class="header-location header-location--mobile">
+              <div class="header-location__item header-location__item--time">
+                <label class="header-location__label header-location__label--when">When</label>
+                <button type="button" class="header-location__field header-location__field--time">ASAP</button>
+              </div>
+              <div class="header-location__item header-location__item--destination">
+                <label class="header-location__label header-location__label--to">To</label>
+                <input id="destination" class="header-location__field header-location__field--destination" type="text" placeholder="Enter the destination"
+                  value="ul. Bolshaya Dmitrovka,22">
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <h1 class="main-title">Moscow restaurants</h1>
+      <section class="restaurants-list">
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo1.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo2.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo3.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo4.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo5.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo6.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo7.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo8.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <a href="#" class="restaurant-card">
+              <img src="./images/photo9.png" alt="" class="restaurant-card__img">
+              <h3 class="restaurant-card__name">Макдоналдс — Газетный</h3>
+              <div class="restaurant-card__info restaurant-info">
+                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <ul class="restaurant-info__kitchen-list">
+                  <li class="restaurant-info__kitchen-item">Бургеры</li>
+                </ul>
+              </div>
+              <div class="restaurant-card__time">25 - 35 Мin</div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer__item footer__item--footer-top">
+        <img src="./images/white-logo.svg" alt="UberEats" class="footer-logo">
+      </div>
+
+      <div class="footer__item footer__item--links">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+
+            <div class="lang-and-social">
+              <form class="language-choose">
+                <select name="select" id="select" class="language-choose__select">
+                  <option>English</option>
+                  <option>Русский</option>
+                </select>
+              </form>
+            </div>
+
+            <div class="hashtag">
+              <span class="hashtag--green">#</span>UberEats
+            </div>
+
+            <div class="social">
+              <a href="#" class="social-item social-item--facebook"></a>
+              <a href="#" class="social-item social-item--twitter"></a>
+              <a href="#" class="social-item social-item--instagram"></a>
+            </div>
+
+          </div>
+
+          <div class="col-xs-12 col-sm-4">
+            <nav class="footer-menu">
+              <a href="#" class="footer-menu__link">About UberEats</a>
+              <a href="#" class="footer-menu__link">Become a Delivery Partner</a>
+              <a href="#" class="footer-menu__link">Become a Restaurant Partner</a>
+            </nav>
+          </div>
+
+          <div class="col-xs-12 col-sm-4">
+            <nav class="footer-menu">
+              <a href="#" class="footer-menu__link">See all cities</a>
+              <a href="#" class="footer-menu__link">Pricing</a>
+              <a href="#" class="footer-menu__link">Help</a>
+              <a href="#" class="footer-menu__link">FAQ</a>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer__item footer__item--apps">
+        <div class="apps">
+          <a href="#" class="apps__link">
+            <img src="./images/appstore.png" alt="AppStore" class="apps__link--appstore">
+          </a>
+          <a href="#" class="apps__link">
+            <img src="./images/googleplay.png" alt="GooglePlay" class="apps__link--googleplay">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__item footer__item--footer-bottom">
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="footer-bottom__item">
+              <span>&copy; 2017 Uber Technologies Inc.</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="footer-bottom__item">
+              <a class="footer-bottom__link" href="#">Privacy</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="footer-bottom__item">
+              <a class="footer-bottom__link" href="#">Terms</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <a class="totop__button" href="#hdr-top"></a>
+
+  </footer>
+
+</body>
+
+</html>
