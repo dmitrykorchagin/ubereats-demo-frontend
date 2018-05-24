@@ -1,0 +1,20 @@
+{
+  "name": "ubereats",
+  "version": "0.1.0",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "postcss": "^6.0.21",
+    "postcss-cli": "^5.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-load-config": "^1.2.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "dependencies": {}
+}
