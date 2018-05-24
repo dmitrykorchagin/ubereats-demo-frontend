@@ -1,3 +1,1 @@
-Hello World! 
-
-Хочу научиться верстке
+Hello World!
