@@ -4,8 +4,6 @@ const postcss = require("gulp-postcss");
 const cssnext = require("postcss-cssnext");
 const autoprefixer = require("autoprefixer");
 const minifycss = require("gulp-csso");
-const imagemin = require("gulp-imagemin");
-const cache = require("gulp-cache");
 
 gulp.task("css", function() {
   return gulp
@@ -24,5 +22,4 @@ gulp.task("img", function() {
 
 gulp.task("default", ["css", "img"], function() {
   gulp.watch("src/styles/*.css", ["css"]);
-  gulp.watch("src/images/**/*.*", ["img"]);
 });
