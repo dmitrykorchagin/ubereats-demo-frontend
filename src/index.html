@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>UberEats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
   <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
-  <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
@@ -18,7 +18,12 @@
       <div class="header-navigation">
 
         <div class="header-navigation__logo header-navigation__item">
-          <a class="header-navigation__logo--img" href="#"></a>
+          <a class="header-navigation__logo--img" href="#">
+            <picture>
+              <source media="(min-width: 992px)" srcset="./images/logo.svg">
+              <img src="./images/logo-small.svg" alt="logo">
+            </picture>
+          </a>
         </div>
 
         <form class="header-navigation__item header-location--desktop">
@@ -38,7 +43,9 @@
             <button class="header-button__link header-button__link--sign-up">Sign Up</button>
             <button class="header-button__link header-button__link--register">Register</button>
           </div>
-          <button class="header-button__basket"></button>
+          <button class="header-button__basket">
+            <img src="./images/basket.svg" alt="basket">
+          </button>
         </div>
 
       </div>
@@ -80,7 +87,7 @@
               <img src="./images/photo1.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
               <div class="restaurant-card__info restaurant-info">
-                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
                 </ul>
@@ -94,7 +101,7 @@
               <img src="./images/photo2.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
               <div class="restaurant-card__info restaurant-info">
-                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
                 </ul>
@@ -108,7 +115,7 @@
               <img src="./images/photo3.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
               <div class="restaurant-card__info restaurant-info">
-                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
                 </ul>
@@ -122,7 +129,7 @@
               <img src="./images/photo4.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
               <div class="restaurant-card__info restaurant-info">
-                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
                 </ul>
@@ -136,7 +143,7 @@
               <img src="./images/photo5.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
               <div class="restaurant-card__info restaurant-info">
-                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
                 </ul>
@@ -150,7 +157,7 @@
               <img src="./images/photo6.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
               <div class="restaurant-card__info restaurant-info">
-                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
                 </ul>
@@ -164,7 +171,7 @@
               <img src="./images/photo7.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
               <div class="restaurant-card__info restaurant-info">
-                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
                 </ul>
@@ -178,7 +185,7 @@
               <img src="./images/photo8.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
               <div class="restaurant-card__info restaurant-info">
-                <span class="restaurant-info__price">&#8381;&#8381;</span>
+                <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
                 </ul>

@@ -271,12 +271,10 @@ p {
 .header-navigation__logo--img {
   width: 107px;
   height: 12px;
-  background: url("../images/logo-small.svg") no-repeat 50%;
 }
 
 @media (min-width: 992px) {
   .header-navigation__logo--img {
-    background: url("../images/logo.svg") no-repeat 50%;
     width: 121px;
   }
 }
@@ -334,6 +332,7 @@ p {
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   align-items: center;
+  outline: none;
   -webkit-appearance: none;
 }
 
@@ -415,7 +414,7 @@ p {
     height: 40px;
     margin-left: 16px;
     border: none;
-    background: url("../images/basket.svg") no-repeat 50%;
+    outline: none;
   }
 }
 

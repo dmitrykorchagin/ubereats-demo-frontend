@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>UberEats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="./styles/styles2.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic-ext" rel="stylesheet">
 </head>
 
@@ -19,7 +19,12 @@
       <div class="header-navigation">
 
         <div class="header-navigation__logo header-navigation__item">
-          <a class="header-navigation__logo--img" href="#"></a>
+          <a class="header-navigation__logo--img" href="#">
+            <picture>
+              <source media="(min-width: 992px)" srcset="./images/logo.svg">
+              <img src="./images/logo-small.svg">
+            </picture>
+          </a>
         </div>
 
         <form class="header-navigation__item header-location--desktop">
@@ -39,7 +44,9 @@
             <button class="header-button__link header-button__link--sign-up">Sign Up</button>
             <button class="header-button__link header-button__link--register">Register</button>
           </div>
-          <button class="header-button__basket"></button>
+          <button class="header-button__basket">
+            <img src="./images/basket.svg" alt="basket">
+          </button>
         </div>
 
       </div>
@@ -101,7 +108,7 @@
                   <h3 class="dish-card__name">Сельдь на бородинском хлебе</h3>
                   <p class="dish-card__name--detail">С яйцом и огурцом</p>
                 </div>
-                <div class="dish-card__price">240 &#8381;</div>
+                <div class="dish-card__price">240 ₽</div>
               </div>
               <img class="dish-card__photo" src="./images/pushkin_herring.png"></img>
             </article>
@@ -113,7 +120,7 @@
                 <div class="dish-card__info">
                   <h3 class="dish-card__name">Соленья ассорти</h3>
                 </div>
-                <div class="dish-card__price">320 &#8381;</div>
+                <div class="dish-card__price">320 ₽</div>
               </div>
               <img class="dish-card__photo" src="./images/pushkin_pickle.png"></img>
             </article>
@@ -125,7 +132,7 @@
                 <div class="dish-card__info">
                   <h3 class="dish-card__name">Грибы маринованные</h3>
                 </div>
-                <div class="dish-card__price">300 &#8381;</div>
+                <div class="dish-card__price">300 ₽</div>
               </div>
               <img class="dish-card__photo" src="./images/pushkin_mushrooms.png"></img>
             </article>
@@ -137,7 +144,7 @@
                 <div class="dish-card__info">
                   <h3 class="dish-card__name">Сало домашнее с горчицей</h3>
                 </div>
-                <div class="dish-card__price">320 &#8381;</div>
+                <div class="dish-card__price">320 ₽</div>
               </div>
               <img class="dish-card__photo" src="./images/pushkin_lard.png"></img>
             </article>
@@ -150,7 +157,7 @@
                   <h3 class="dish-card__name">Малосольная семга
                     <</h3>
                 </div>
-                <div class="dish-card__price">390 &#8381;</div>
+                <div class="dish-card__price">390 ₽</div>
               </div>
               <img class="dish-card__photo" src="./images/pushkin_salmon.png"></img>
             </article>
@@ -162,7 +169,7 @@
                 <div class="dish-card__info">
                   <h3 class="dish-card__name">Язык говяжий с хреном</h3>
                 </div>
-                <div class="dish-card__price">350 &#8381;</div>
+                <div class="dish-card__price">350 ₽</div>
               </div>
               <img class="dish-card__photo" src="./images/pushkin_tongue.png"></img>
             </article>
