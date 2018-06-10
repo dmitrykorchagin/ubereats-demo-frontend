@@ -18,32 +18,30 @@
     <div class="container">
       <div class="header-navigation">
 
-        <div class="header-navigation__logo header-navigation__item">
-          <a class="header-navigation__logo--img" href="#">
-            <picture>
-              <source media="(min-width: 992px)" srcset="./images/logo.svg">
-              <img src="./images/logo-small.svg">
-            </picture>
-          </a>
-        </div>
+        <a class="header-navigation__logo--img" href="#">
+          <picture>
+            <source media="(min-width: 992px)" srcset="./images/logo.svg">
+            <img src="./images/logo-small.svg" alt="logo">
+          </picture>
+        </a>
 
-        <form class="header-navigation__item header-location--desktop">
-          <div class="header-location__item header-location__item--time">
+        <form class="header-navigation__element header-location--desktop">
+          <div class="header-location">
             <label class="header-location__label header-location__label--when">When</label>
             <button class="header-location__field header-location__field--time">ASAP</button>
           </div>
-          <div class="header-location__item header-location__item--destination">
+          <div class="header-location header-location--destination">
             <label class="header-location__label header-location__label--to">To</label>
             <input class="header-location__field header-location__field--destination" type="text" placeholder="ul. Bolshaya Dmitrovka, 22"
               value="">
           </div>
         </form>
 
-        <div class="header-navigation__button header-navigation__item">
-          <div class="header-button">
-            <button class="header-button__link header-button__link--sign-up">Sign Up</button>
-            <button class="header-button__link header-button__link--register">Register</button>
-          </div>
+        <div class="header-navigation__button header-navigation__element">
+
+          <button class="header-button__link header-button__link--sign-up">Sign Up</button>
+          <button class="header-button__link header-button__link--register">Register</button>
+
           <button class="header-button__basket">
             <img src="./images/basket.svg" alt="basket">
           </button>
@@ -102,76 +100,56 @@
         <div class="row">
 
           <div class="col-xs-12 col-md-6">
-            <article class="dish-card">
-              <div class="dish-card__content">
-                <div class="dish-card__info">
-                  <h3 class="dish-card__name">Сельдь на бородинском хлебе</h3>
-                  <p class="dish-card__name--detail">С яйцом и огурцом</p>
-                </div>
-                <div class="dish-card__price">240 ₽</div>
-              </div>
+            <article class="dish-card clearfix">
               <img class="dish-card__photo" src="./images/pushkin_herring.png"></img>
+              <h3 class="dish-card__name">Сельдь на бородинском хлебе</h3>
+              <p class="dish-card__name--detail">С яйцом и огурцом</p>
+              <div class="dish-card__price">240 ₽</div>
             </article>
           </div>
 
           <div class="col-xs-12 col-md-6">
-            <article class="dish-card">
-              <div class="dish-card__content">
-                <div class="dish-card__info">
-                  <h3 class="dish-card__name">Соленья ассорти</h3>
-                </div>
-                <div class="dish-card__price">320 ₽</div>
-              </div>
+            <article class="dish-card clearfix">
               <img class="dish-card__photo" src="./images/pushkin_pickle.png"></img>
+              <h3 class="dish-card__name">Соленья ассорти</h3>
+              <p class="dish-card__name--detail"></p>
+              <div class="dish-card__price">320 ₽</div>
             </article>
           </div>
 
           <div class="col-xs-12 col-md-6">
-            <article class="dish-card">
-              <div class="dish-card__content">
-                <div class="dish-card__info">
-                  <h3 class="dish-card__name">Грибы маринованные</h3>
-                </div>
-                <div class="dish-card__price">300 ₽</div>
-              </div>
+            <article class="dish-card clearfix">
               <img class="dish-card__photo" src="./images/pushkin_mushrooms.png"></img>
+              <h3 class="dish-card__name">Грибы маринованные</h3>
+              <p class="dish-card__name--detail"></p>
+              <div class="dish-card__price">300 ₽</div>
             </article>
           </div>
 
           <div class="col-xs-12 col-md-6">
-            <article class="dish-card">
-              <div class="dish-card__content">
-                <div class="dish-card__info">
-                  <h3 class="dish-card__name">Сало домашнее с горчицей</h3>
-                </div>
-                <div class="dish-card__price">320 ₽</div>
-              </div>
+            <article class="dish-card clearfix">
               <img class="dish-card__photo" src="./images/pushkin_lard.png"></img>
+              <h3 class="dish-card__name">Сало домашнее с горчицей</h3>
+              <p class="dish-card__name--detail"></p>
+              <div class="dish-card__price">320 ₽</div>
             </article>
           </div>
 
           <div class="col-xs-12 col-md-6">
-            <article class="dish-card">
-              <div class="dish-card__content">
-                <div class="dish-card__info">
-                  <h3 class="dish-card__name">Малосольная семга
-                    <</h3>
-                </div>
-                <div class="dish-card__price">390 ₽</div>
-              </div>
+            <article class="dish-card clearfix">
               <img class="dish-card__photo" src="./images/pushkin_salmon.png"></img>
+              <h3 class="dish-card__name">Малосольная семга</h3>
+              <p class="dish-card__name--detail"></p>
+              <div class="dish-card__price">390 ₽</div>
             </article>
           </div>
 
           <div class="col-xs-12 col-md-6">
-            <article class="dish-card">
-              <div class="dish-card__content">
-                <div class="dish-card__info">
-                  <h3 class="dish-card__name">Язык говяжий с хреном</h3>
-                </div>
-                <div class="dish-card__price">350 ₽</div>
-              </div>
+            <article class="dish-card clearfix">
               <img class="dish-card__photo" src="./images/pushkin_tongue.png"></img>
+              <h3 class="dish-card__name">Язык говяжий с хреном</h3>
+              <p class="dish-card__name--detail"></p>
+              <div class="dish-card__price">350 ₽</div>
             </article>
           </div>
 

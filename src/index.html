@@ -17,32 +17,30 @@
     <div class="container">
       <div class="header-navigation">
 
-        <div class="header-navigation__logo header-navigation__item">
-          <a class="header-navigation__logo--img" href="#">
-            <picture>
-              <source media="(min-width: 992px)" srcset="./images/logo.svg">
-              <img src="./images/logo-small.svg" alt="logo">
-            </picture>
-          </a>
-        </div>
+        <a class="header-navigation__logo--img" href="#">
+          <picture>
+            <source media="(min-width: 992px)" srcset="./images/logo.svg">
+            <img src="./images/logo-small.svg" alt="logo">
+          </picture>
+        </a>
 
-        <form class="header-navigation__item header-location--desktop">
-          <div class="header-location__item header-location__item--time">
+        <form class="header-navigation__element header-location--desktop">
+          <div class="header-location">
             <label class="header-location__label header-location__label--when">When</label>
             <button class="header-location__field header-location__field--time">ASAP</button>
           </div>
-          <div class="header-location__item header-location__item--destination">
+          <div class="header-location header-location--destination">
             <label class="header-location__label header-location__label--to">To</label>
             <input class="header-location__field header-location__field--destination" type="text" placeholder="ul. Bolshaya Dmitrovka, 22"
               value="">
           </div>
         </form>
 
-        <div class="header-navigation__button header-navigation__item">
-          <div class="header-button">
-            <button class="header-button__link header-button__link--sign-up">Sign Up</button>
-            <button class="header-button__link header-button__link--register">Register</button>
-          </div>
+        <div class="header-navigation__button header-navigation__element">
+
+          <button class="header-button__link header-button__link--sign-up">Sign Up</button>
+          <button class="header-button__link header-button__link--register">Register</button>
+
           <button class="header-button__basket">
             <img src="./images/basket.svg" alt="basket">
           </button>
@@ -55,18 +53,16 @@
   <div class="header-bottom" id="jump-btn">
     <div class="container">
 
-      <div class="header-search">
-        <form action="#" class="search-restaurant">
-          <input type="text" class="search-restaurant__input" placeholder="Search for restaurant or cuisine">
-        </form>
-      </div>
+      <form action="#" class="search-restaurant header-search">
+        <input type="text" class="search-restaurant__input" placeholder="Search for restaurant or cuisine">
+      </form>
 
-      <form class="header-location header-location--mobile">
-        <div class="header-location__item header-location__item--time">
+      <form class="header-location--mobile">
+        <div class="header-location">
           <label class="header-location__label header-location__label--when">When</label>
           <button type="button" class="header-location__field header-location__field--time">ASAP</button>
         </div>
-        <div class="header-location__item header-location__item--destination">
+        <div class="header-location header-location--destination">
           <label class="header-location__label header-location__label--to">To</label>
           <input id="destination" class="header-location__field header-location__field--destination" type="text" placeholder="Enter the destination"
             value="ul. Bolshaya Dmitrovka,22">
@@ -86,7 +82,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo1.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
@@ -100,7 +96,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo2.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
@@ -114,7 +110,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo3.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
@@ -128,7 +124,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo4.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
@@ -142,7 +138,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo5.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
@@ -156,7 +152,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo6.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
@@ -170,7 +166,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo7.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
@@ -184,7 +180,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo8.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">₽₽</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
@@ -198,7 +194,7 @@
             <a href="#" class="restaurant-card">
               <img src="./images/photo9.png" alt="" class="restaurant-card__img">
               <h2 class="restaurant-card__name">Макдоналдс — Газетный</h2>
-              <div class="restaurant-card__info restaurant-info">
+              <div class="restaurant-card__info">
                 <span class="restaurant-info__price">&#8381;&#8381;</span>
                 <ul class="restaurant-info__kitchen-list">
                   <li class="restaurant-info__kitchen-item">Бургеры</li>
